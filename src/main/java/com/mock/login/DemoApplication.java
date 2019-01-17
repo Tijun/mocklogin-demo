@@ -1,4 +1,4 @@
-package com.mock.login.demo;
+package com.mock.login;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
