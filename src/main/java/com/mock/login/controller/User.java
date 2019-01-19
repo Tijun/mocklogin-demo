@@ -4,14 +4,10 @@ public class User {
 
     private String username;
     private String email;
-    private String name;
+    private String nickname;
 
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public void setName(String name) {
-        this.name = name;
+    public String getUsername() {
+        return username;
     }
 
     public void setUsername(String username) {
@@ -22,11 +18,15 @@ public class User {
         return email;
     }
 
-    public String getName() {
-        return name;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
-    public String getUsername() {
-        return username;
+    public String getNickname() {
+        return nickname;
+    }
+
+    public void setNickname(String nickname) {
+        this.nickname = nickname;
     }
 }

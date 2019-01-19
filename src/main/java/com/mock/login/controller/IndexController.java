@@ -34,7 +34,6 @@ public class IndexController {
         cookie.setMaxAge(1000000);
         cookie.setHttpOnly(true);
         cookie.setPath("/");
-        cookie.setDomain("127.0.0.1");
         response.addCookie(cookie);
         response.sendRedirect(callback);
     }
@@ -47,7 +46,7 @@ public class IndexController {
             System.out.println(cookies);
         }
         User user = new User();
-        user.setName("xiao tian");
+        user.setNickname("xiao tian");
         user.setUsername("m135");
         user.setEmail("xiaotian@h3c,com");
         return user;
